@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academic Services – Noor Research Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Academic Services</h1>
+  <p>Research guidance, methodology training, data analysis, and publication support.</p>
+</section>
+
+<div class="navbar"> ... (paste shared nav) ... </div>
+
+<div class="container">
+  <div class="card">
+    <h2>A. Research Guidance &amp; Mentoring</h2>
+    <ul>
+      <li>Thesis &amp; dissertation guidance (Master’s &amp; PhD)</li>
+      <li>Research proposal development</li>
+      <li>Problem identification &amp; gap analysis</li>
+      <li>Conceptual framework &amp; hypothesis development</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>B. Research Methodology Training</h2>
+    <ul>
+      <li>Quantitative, qualitative &amp; mixed methods</li>
+      <li>Research design &amp; sampling techniques</li>
+      <li>Questionnaire &amp; instrument development</li>
+      <li>Reliability, validity &amp; robustness testing</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>C. Data Analysis Support</h2>
+    <ul>
+      <li>SPSS, Stata, EViews, SmartPLS, AMOS</li>
+      <li>Regression, SEM, panel data &amp; time‑series analysis</li>
+      <li>Result interpretation &amp; academic reporting</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>D. Academic Writing &amp; Publication</h2>
+    <ul>
+      <li>Thesis &amp; dissertation structure</li>
+      <li>Journal article writing</li>
+      <li>Literature review development</li>
+      <li>Referencing &amp; citation (APA, Harvard, etc.)</li>
+      <li>Publication strategy &amp; journal selection</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>E. Academic Skills Development</h2>
+    <ul>
+      <li>Research ethics &amp; plagiarism avoidance</li>
+      <li>Critical literature review skills</li>
+      <li>Research presentation skills</li>
+      <li>Viva voce &amp; defense preparation</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <a class="btn" href="contact.html">Request mentoring or training →</a>
+  </div>
+</div>
+
+<footer>© 2026 Noor Research Academy</footer>
+<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
+``
