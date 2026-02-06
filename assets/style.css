@@ -35,20 +35,70 @@ body{
 .hero h1{margin:0 0 10px;font-size:40px;letter-spacing:.5px}
 .hero p{margin:6px auto 0;max-width:820px;font-size:18px;opacity:.95}
 
-/* ====== Navigation ====== */
-.navbar{
-  background:var(--primary-dark);
-  display:flex;
-  align-items:center;
-  gap:18px;
-  padding:10px 18px;
-  flex-wrap:wrap;
+/* --- NAVBAR LAYOUT: logo left, links centered --- */
+.navbar-wrap {
+  background: var(--primary-dark);
+  position: sticky;  /* optional: keeps navbar visible when scrolling */
+  top: 0;
+  z-index: 1000;
 }
-.navbar img.logo{height:36px;width:auto}
-.navbar a{
-  color:#fff;text-decoration:none;font-weight:700;padding:8px 10px;border-radius:6px
+
+/* Grid with 3 columns: [logo] [centered links] [right spacer] */
+.navbar {
+  width: 92%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;  /* left grows, center auto, right grows */
+  align-items: center;
+  gap: 16px;
+  padding: 10px 12px;
 }
-.navbar a:hover{background:rgba(255,255,255,.08);color:var(--accent)}
+
+/* Left: logo aligned to the far left */
+.navbar > a { justify-self: start; }
+
+/* Logo size */
+.navbar img.logo {
+  height: 56px;        /* adjust to your taste (48–64px works well) */
+  width: auto;
+  display: block;      /* removes stray descender space */
+}
+
+/* Center: links exactly centered */
+.navbar .nav-links {
+  justify-self: center;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Right: empty spacer (keeps center truly centered) */
+.navbar .nav-right { justify-self: end; }
+
+/* Link styling (you already have similar rules, keep or merge) */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+.navbar a:hover {
+  background: rgba(255,255,255,.08);
+  color: var(--accent);
+}
+
+/* Mobile: stack links below logo if space is tight */
+@media (max-width: 720px) {
+  .navbar {
+    grid-template-columns: 1fr;     /* single column */
+    row-gap: 10px;
+    padding: 10px 14px 14px;
+  }
+  .navbar > a { justify-self: start; }
+  .navbar .nav-links { justify-self: start; } /* left-align links on small screens */
+}
 
 /* ====== Layout ====== */
 .container{width:92%;max-width:1100px;margin:28px auto}
