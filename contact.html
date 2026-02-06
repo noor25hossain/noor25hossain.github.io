@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & Registration – Noor Research Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Contact &amp; Registration</h1>
+  <p>Have questions or want to enroll? Send a message — we’ll get back within 24 hours.</p>
+</section>
+
+<div class="navbar"> ... (paste shared nav) ... </div>
+
+<div class="container">
+  <div class="grid grid-2">
+    <div class="card">
+      <h2>Contact Details</h2>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/447873476674" target="_blank">+44 7873 476674</a></p>
+      <p><strong>Email:</strong> youremail@example.com</p>
+      <p><strong>Website:</strong> noor25hossain.github.io</p>
+    </div>
+
+    <div class="card">
+      <h2>Registration Form</h2>
+
+      <!-- FormSubmit: replace YOUR_EMAIL@example.com with your email -->
+      <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Registration - Noor Research Academy">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://noor25hossain.github.io/thanks.html">
+
+        <div class="form-row">
+          <div>
+            <label>Full Name</label>
+            <input type="text" name="name" required>
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label>WhatsApp Number</label>
+            <input type="text" name="whatsapp" placeholder="+44 ...">
+          </div>
+          <div>
+            <label>Program / Course</label>
+            <select name="course" required>
+              <option value="">Select...</option>
+              <option>Research Methodology Masterclass</option>
+              <option>SPSS for Researchers</option>
+              <option>SmartPLS / SEM Bootcamp</option>
+              <option>AMOS / CFA & SEM</option>
+              <option>Panel & Time-Series (Stata/EViews)</option>
+              <option>Thesis Writing & Publication</option>
+              <option>One-to-one Mentoring</option>
+            </select>
+          </div>
+        </div>
+
+        <label>Message / Research Topic</label>
+        <textarea name="message" placeholder="Tell us about your research needs..."></textarea>
+
+        <div style="margin-top:14px">
+          <button class="btn" type="submit">Submit Registration</button>
+          <a class="btn btn-outline" href="https://wa.me/447873476674" target="_blank">Chat on WhatsApp</a>
+        </div>
+      </form>
+
+      <p style="font-size:13px;color:#666;margin-top:10px">
+        * Your information is used only for academic guidance and will never be shared.
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 Noor Research Academy</footer>
+<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
