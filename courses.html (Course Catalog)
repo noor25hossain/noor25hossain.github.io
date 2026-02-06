@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses – Noor Research Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Course Catalog</h1>
+  <p>Structured programs for Master’s &amp; PhD scholars</p>
+</section>
+
+<div class="navbar"> ... (paste shared nav) ... </div>
+
+<div class="container grid grid-3">
+  <div class="course">
+    <h4>Research Methodology Masterclass</h4>
+    <div class="meta">Duration: 6 weeks · Mode: Live/Recorded</div>
+    <p>Quantitative, qualitative &amp; mixed methods; sampling; instrument design; validity &amp; reliability.</p>
+    <div class="tags">
+      <span class="badge">Methods</span><span class="badge">Design</span>
+    </div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+
+  <div class="course">
+    <h4>SPSS for Researchers</h4>
+    <div class="meta">Duration: 4 weeks · Mode: Live/Recorded</div>
+    <p>Data preparation, descriptive stats, regression, assumptions, interpretation &amp; reporting.</p>
+    <div class="tags"><span class="badge">SPSS</span><span class="badge">Statistics</span></div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+
+  <div class="course">
+    <h4>SmartPLS / SEM Bootcamp</h4>
+    <div class="meta">Duration: 5 weeks · Mode: Live</div>
+    <p>Measurement models, structural models, mediation/moderation, reporting to journal standard.</p>
+    <div class="tags"><span class="badge">PLS-SEM</span><span class="badge">Modeling</span></div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+
+  <div class="course">
+    <h4>AMOS / CFA &amp; SEM</h4>
+    <div class="meta">Duration: 5 weeks · Mode: Live</div>
+    <p>CFA, SEM, fit indices, model refinement, publication‑ready figures &amp; narratives.</p>
+    <div class="tags"><span class="badge">AMOS</span><span class="badge">SEM</span></div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+
+  <div class="course">
+    <h4>Panel &amp; Time‑Series (Stata/EViews)</h4>
+    <div class="meta">Duration: 6 weeks · Mode: Live/Recorded</div>
+    <p>Stationarity, cointegration, fixed/random effects, GMM, ARDL, VAR/VECM.</p>
+    <div class="tags"><span class="badge">Econometrics</span><span class="badge">Stata</span></div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+
+  <div class="course">
+    <h4>Thesis Writing &amp; Publication</h4>
+    <div class="meta">Duration: 4 weeks · Mode: Live/Recorded</div>
+    <p>Structure, literature review, contribution, referencing (APA/Harvard), journal targeting.</p>
+    <div class="tags"><span class="badge">Writing</span><span class="badge">Publishing</span></div>
+    <a class="btn" href="contact.html">Enroll</a>
+  </div>
+</div>
+
+<footer>© 2026 Noor Research Academy</footer>
+<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
