@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Videos – Noor Research Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Video Learning</h1>
+  <p>Pre‑recorded academic and research tutorials</p>
+</section>
+
+<div class="navbar"> ... (paste shared nav) ... </div>
+
+<div class="container grid grid-2">
+  <div class="card">
+    <h2>Research Methodology Overview</h2>
+    <div style="position:relative;padding-top:56.25%;">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Research Methodology"
+              style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>SPSS Basics for Beginners</h2>
+    <div style="position:relative;padding-top:56.25%;">
+      <iframe src="https://www.youtube.com/embed/oHg5SJYRHA0"
+              title="SPSS Basics"
+              style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 Noor Research Academy</footer>
+<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
+``
