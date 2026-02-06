@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programs – Noor Research Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Programs &amp; Delivery</h1>
+</section>
+
+<div class="navbar"> ... (paste shared nav) ... </div>
+
+<div class="container">
+  <div class="grid grid-2">
+    <div class="card">
+      <h2>Learning Modes</h2>
+      <ul>
+        <li>Pre‑recorded academic &amp; research videos</li>
+        <li>Live online workshops &amp; webinars</li>
+        <li>One‑to‑one academic mentoring</li>
+        <li>Structured research programs &amp; short courses</li>
+        <li>Research guidelines &amp; academic resources</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Popular Programs</h2>
+      <ul>
+        <li>Research Methodology (Quantitative/Qualitative)</li>
+        <li>SPSS / Stata / EViews / SmartPLS / AMOS</li>
+        <li>Thesis Writing &amp; Journal Publication</li>
+        <li>SEM &amp; Panel Data Analysis</li>
+      </ul>
+      <a class="btn" href="courses.html">See detailed course catalog</a>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 Noor Research Academy</footer>
+<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
