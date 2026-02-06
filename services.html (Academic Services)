@@ -12,7 +12,19 @@
   <p>Research guidance, methodology training, data analysis, and publication support.</p>
 </section>
 
-<div class="navbar"> ... (paste shared nav) ... </div>
+<div class="navbar">
+  <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="Noor Research Academy logo"></a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="mission-vision.html">Mission & Vision</a>
+  <a href="services.html">Academic Services</a>
+  <a href="courses.html">Courses</a>
+  <a href="programs.html">Programs</a>
+  <a href="videos.html">Videos</a>
+  <a href="ethics.html">Ethics</a>
+  <a href="founder.html">Founder</a>
+  <a href="contact.html">Contact</a>
+</div>
 
 <div class="container">
   <div class="card">
