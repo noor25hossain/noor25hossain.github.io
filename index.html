@@ -4,67 +4,139 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Noor Research Academy – Home</title>
-  assets/style.css
-  assets/script.js</script>
+  <meta name="description" content="Noor Research Academy supports Master's and PhD students with research guidance, methodology training, data analysis, and academic writing in Business & Accounting.">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
 </head>
 <body>
 
-<section class="hero">
-  <h1>Noor Research Academy</h1>
-  <p>Where Business &amp; Accounting Research Meets Academic Excellence</p>
-</section>
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero">
+    <h1>Noor Research Academy</h1>
+    <p>Where Business &amp; Accounting Research Meets Academic Excellence</p>
+  </section>
 
-<!-- NAV -->
-<div class="navbar">
-  index.htmlassets/img/logo.png</a>
-  index.htmlHome</a>
-  about.htmlAbout</a>
-  mission-vision.htmlMission & Vision</a>
-  services.htmlAcademic Services</a>
-  courses.htmlCourses</a>
-  programs.htmlPrograms</a>
-  videos.htmlVideos</a>
-  ethics.htmlEthics</a>
-  founder.htmlFounder</a>
-  contact.htmlContact</a>
-</div>
+  <!-- NAVBAR (logo left, links centered, search right) -->
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Primary navigation">
+      <!-- Left: logo -->
+      <a href="index.html" aria-label="Home">
+        <img src="assets/img/logo.png" alt="Noor Research Academy logo" class="logo">
+      </a>
 
-<div class="container">
-  <div class="grid grid-2">
-    <div class="card">
-      <h2>Welcome</h2>
-      <p>We support Master’s and PhD students with structured research guidance, methodology training, data analysis, and publication‑oriented academic writing.</p>
-      about.htmlLearn more</a>
+      <!-- Center: links (Home links also include section anchors for this page) -->
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Academic Services</a>
+        <a href="videos.html">Videos</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- Right: site search (DuckDuckGo) -->
+      <div class="nav-right">
+        <form class="nav-search" action="https://duckduckgo.com/" method="get" role="search" aria-label="Search site">
+          <input type="hidden" name="sites" value="noor25hossain.github.io">
+          <input type="text" name="q" placeholder="Search the site..." aria-label="Search the site">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <main class="container">
+    <!-- Welcome (from template: title/tagline) -->
+    <div class="grid grid-2">
+      <div class="card">
+        <h2>Welcome</h2>
+        <p>We support Master’s and PhD students with structured research guidance, methodology training, data analysis, and publication‑oriented academic writing.</p>
+        <a class="btn" href="about.html">Learn more</a>
+      </div>
+      <div class="card">
+        <h2>Featured Courses</h2>
+        <ul>
+          <li>Research Methodology Masterclass</li>
+          <li>SPSS / SmartPLS / AMOS Bootcamps</li>
+          <li>Thesis Writing for Master’s</li>
+          <li>Advanced Data Analysis for PhD</li>
+        </ul>
+        <a class="btn btn-outline" href="services.html">Browse all services</a>
+      </div>
     </div>
 
+    <!-- Focus Areas badges -->
     <div class="card">
-      <h2>Featured Courses</h2>
+      <h2>Focus Areas</h2>
+      <div class="tags">
+        <span class="badge">Business</span>
+        <span class="badge">Accounting</span>
+        <span class="badge">Management</span>
+        <span class="badge">Finance</span>
+        <span class="badge">Economics</span>
+        <span class="badge">Auditing &amp; Taxation</span>
+        <span class="badge">Corporate Governance</span>
+        <span class="badge">Sustainability &amp; ESG</span>
+      </div>
+    </div>
+
+    <!-- Researcher Interview & Learning Video (YouTube) -->
+    <div class="grid grid-2">
+      <div class="card">
+        <h2>Researcher Interview</h2>
+        <div style="position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_1"
+                  title="Researcher Interview"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Research Learning Video</h2>
+        <div style="position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_2"
+                  title="Research Learning Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Services (summary) -->
+    <div class="card">
+      <h2>Academic Services</h2>
       <ul>
-        <li>Research Methodology Masterclass</li>
-        <li>SPSS, SmartPLS &amp; AMOS Bootcamps</li>
-        <li>Thesis Writing for Master’s</li>
-        <li>Advanced Data Analysis for PhD</li>
+        <li>Research Guidance &amp; Mentoring</li>
+        <li>Research Methodology Training</li>
+        <li>Data Analysis &amp; Statistical Support</li>
+        <li>Academic Writing &amp; Research Skills</li>
+        <li>Research Proposal Development</li>
+        <li>Publication &amp; Journal Support</li>
+        <li>Viva Voce &amp; Defense Preparation</li>
+        <li>Research Ethics &amp; Academic Integrity</li>
       </ul>
-      courses.htmlBrowse all courses</a>
+      <a class="btn" href="services.html">See details</a>
     </div>
-  </div>
 
-  <div class="card">
-    <h2>Focus Areas</h2>
-    <div class="tags">
-      <span class="badge">Business</span>
-      <span class="badge">Accounting</span>
-      <span class="badge">Management</span>
-      <span class="badge">Finance</span>
-      <span class="badge">Economics</span>
-      <span class="badge">Auditing &amp; Taxation</span>
-      <span class="badge">Corporate Governance</span>
-      <span class="badge">Sustainability &amp; ESG</span>
+    <!-- Contact (Get in Touch) -->
+    <div class="grid grid-2">
+      <div class="card">
+        <h2>Connect</h2>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/447873476674" target="_blank" rel="noopener">+44 7873 476674</a></p>
+        <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p><strong>Website:</strong> <a href="https://noor25hossain.github.io">noor25hossain.github.io</a></p>
+        <a class="btn btn-outline" href="contact.html">Contact form</a>
+      </div>
+      <div class="card">
+        <h2>About the Academy</h2>
+        <p>Noor Research Academy for Business &amp; Accounting is an academic and research‑focused institution dedicated to supporting Master’s and PhD students with structured guidance, academic training, and scholarly resources.</p>
+        <a class="btn" href="about.html">About us</a>
+      </div>
     </div>
-  </div>
-</div>
+  </main>
 
-<footer>© 2026 Noor Research Academy — All Rights Reserved</footer>
-https://wa.me/447873476674💬</a>
+  <footer>© 2026 Noor Research Academy — All Rights Reserved</footer>
+
+  <!-- Floating WhatsApp Chat -->
+  <a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
 </body>
 </html>
