@@ -6,84 +6,58 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <section class="hero">
+    <h1>Academic Services</h1>
+    <p>Research guidance, methodology training, data analysis, and publication support.</p>
+  </section>
 
-<section class="hero">
-  <h1>Academic Services</h1>
-  <p>Research guidance, methodology training, data analysis, and publication support.</p>
-</section>
-
-<div class="navbar">
-  <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="Noor Research Academy logo"></a>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="mission-vision.html">Mission & Vision</a>
-  <a href="services.html">Academic Services</a>
-  <a href="courses.html">Courses</a>
-  <a href="programs.html">Programs</a>
-  <a href="videos.html">Videos</a>
-  <a href="ethics.html">Ethics</a>
-  <a href="founder.html">Founder</a>
-  <a href="contact.html">Contact</a>
-</div>
-
-<div class="container">
-  <div class="card">
-    <h2>A. Research Guidance &amp; Mentoring</h2>
-    <ul>
-      <li>Thesis &amp; dissertation guidance (Master’s &amp; PhD)</li>
-      <li>Research proposal development</li>
-      <li>Problem identification &amp; gap analysis</li>
-      <li>Conceptual framework &amp; hypothesis development</li>
-    </ul>
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="index.html" aria-label="Home"><img src="assets/img/logo.png" alt="Logo" class="logo"></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="services.html">Academic Services</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-right">
+        <form class="nav-search" action="https://duckduckgo.com/" method="get">
+          <input type="hidden" name="sites" value="noor25hossain.github.io">
+          <input type="text" name="q" placeholder="Search the site..."><button>Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
 
-  <div class="card">
-    <h2>B. Research Methodology Training</h2>
-    <ul>
-      <li>Quantitative, qualitative &amp; mixed methods</li>
-      <li>Research design &amp; sampling techniques</li>
-      <li>Questionnaire &amp; instrument development</li>
-      <li>Reliability, validity &amp; robustness testing</li>
-    </ul>
-  </div>
+  <main class="container">
+    <div class="card"><h2>A. Research Guidance &amp; Mentoring</h2>
+      <ul><li>Thesis &amp; dissertation guidance (Master’s &amp; PhD)</li>
+        <li>Research proposal development</li><li>Problem identification &amp; gap analysis</li>
+        <li>Conceptual framework &amp; hypothesis development</li></ul></div>
 
-  <div class="card">
-    <h2>C. Data Analysis Support</h2>
-    <ul>
-      <li>SPSS, Stata, EViews, SmartPLS, AMOS</li>
-      <li>Regression, SEM, panel data &amp; time‑series analysis</li>
-      <li>Result interpretation &amp; academic reporting</li>
-    </ul>
-  </div>
+    <div class="card"><h2>B. Research Methodology Training</h2>
+      <ul><li>Quantitative, qualitative &amp; mixed methods</li>
+        <li>Research design &amp; sampling techniques</li>
+        <li>Questionnaire &amp; instrument development</li>
+        <li>Reliability, validity &amp; robustness testing</li></ul></div>
 
-  <div class="card">
-    <h2>D. Academic Writing &amp; Publication</h2>
-    <ul>
-      <li>Thesis &amp; dissertation structure</li>
-      <li>Journal article writing</li>
-      <li>Literature review development</li>
-      <li>Referencing &amp; citation (APA, Harvard, etc.)</li>
-      <li>Publication strategy &amp; journal selection</li>
-    </ul>
-  </div>
+    <div class="card"><h2>C. Data Analysis &amp; Statistical Support</h2>
+      <ul><li>SPSS, Stata, EViews, SmartPLS, AMOS</li>
+        <li>Regression, SEM, panel &amp; time‑series analysis</li>
+        <li>Interpretation &amp; academic reporting</li></ul></div>
 
-  <div class="card">
-    <h2>E. Academic Skills Development</h2>
-    <ul>
-      <li>Research ethics &amp; plagiarism avoidance</li>
-      <li>Critical literature review skills</li>
-      <li>Research presentation skills</li>
-      <li>Viva voce &amp; defense preparation</li>
-    </ul>
-  </div>
+    <div class="card"><h2>D. Academic Writing &amp; Publication</h2>
+      <ul><li>Thesis &amp; dissertation structure</li>
+        <li>Journal article writing</li><li>Literature review development</li>
+        <li>Referencing &amp; citation (APA, Harvard, etc.)</li>
+        <li>Publication strategy &amp; journal selection</li></ul></div>
 
-  <div class="card">
-    <a class="btn" href="contact.html">Request mentoring or training →</a>
-  </div>
-</div>
+    <div class="card"><h2>E. Academic Skills Development</h2>
+      <ul><li>Research ethics &amp; plagiarism avoidance</li>
+        <li>Critical literature review skills</li>
+        <li>Research presentation skills</li>
+        <li>Viva voce &amp; defense preparation</li></ul></div>
+  </main>
 
-<footer>© 2026 Noor Research Academy</footer>
-<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+  <footer>© 2026 Noor Research Academy</footer>
+  <a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
 </body>
 </html>
-``
