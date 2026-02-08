@@ -6,50 +6,50 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <section class="hero">
+    <h1>Videos</h1>
+    <p>Researcher Interviews &amp; Research Learning Videos</p>
+  </section>
 
-<section class="hero">
-  <h1>Video Learning</h1>
-  <p>Pre‑recorded academic and research tutorials</p>
-</section>
-
-<div class="navbar">
-  <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="Noor Research Academy logo"></a>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="mission-vision.html">Mission & Vision</a>
-  <a href="services.html">Academic Services</a>
-  <a href="courses.html">Courses</a>
-  <a href="programs.html">Programs</a>
-  <a href="videos.html">Videos</a>
-  <a href="ethics.html">Ethics</a>
-  <a href="founder.html">Founder</a>
-  <a href="contact.html">Contact</a>
-</div>
-
-<div class="container grid grid-2">
-  <div class="card">
-    <h2>Research Methodology Overview</h2>
-    <div style="position:relative;padding-top:56.25%;">
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Research Methodology"
-              style="position:absolute;inset:0;width:100%;height:100%;border:0;"
-              allowfullscreen></iframe>
-    </div>
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="index.html" aria-label="Home"><img src="assets/img/logo.png" alt="Logo" class="logo"></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="services.html">Academic Services</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-right">
+        <form class="nav-search" action="https://duckduckgo.com/" method="get">
+          <input type="hidden" name="sites" value="noor25hossain.github.io">
+          <input type="text" name="q" placeholder="Search the site..."><button>Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
 
-  <div class="card">
-    <h2>SPSS Basics for Beginners</h2>
-    <div style="position:relative;padding-top:56.25%;">
-      <iframe src="https://www.youtube.com/embed/oHg5SJYRHA0"
-              title="SPSS Basics"
-              style="position:absolute;inset:0;width:100%;height:100%;border:0;"
-              allowfullscreen></iframe>
+  <main class="container grid grid-2">
+    <div class="card">
+      <h2>Researcher Interview</h2>
+      <div style="position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1"
+            title="Researcher Interview"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
     </div>
-  </div>
-</div>
 
-<footer>© 2026 Noor Research Academy</footer>
-<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+    <div class="card">
+      <h2>Research Learning Video</h2>
+      <div style="position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2"
+            title="Research Learning Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2026 Noor Research Academy</footer>
+  <a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
 </body>
 </html>
-``
