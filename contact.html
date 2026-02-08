@@ -6,97 +6,89 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
- 
-<section class="hero">
-  <h1>Contact &amp; Registration</h1>
-  <p>Have questions or want to enroll? Send a message — we’ll get back within 24 hours.</p>
-</section>
-<div class="navbar">
-  <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="Noor Research Academy logo"></a>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="mission-vision.html">Mission & Vision</a>
-  <a href="services.html">Academic Services</a>
-  <a href="courses.html">Courses</a>
-  <a href="programs.html">Programs</a>
-  <a href="videos.html">Videos</a>
-  <a href="ethics.html">Ethics</a>
-  <a href="founder.html">Founder</a>
-  <a href="contact.html">Contact</a>
-</div>  
-  
-  
-<div class="navbar"> ... (paste shared nav) ... </div>
+  <section class="hero">
+    <h1>Contact &amp; Registration</h1>
+    <p>Have questions or want to enroll? We’ll get back within 24 hours.</p>
+  </section>
 
-<div class="container">
-  <div class="grid grid-2">
-    <div class="card">
-      <h2>Contact Details</h2>
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/447873476674" target="_blank">+44 7873 476674</a></p>
-      <p><strong>Email:</strong> youremail@example.com</p>
-      <p><strong>Website:</strong> noor25hossain.github.io</p>
-    </div>
-
-    <div class="card">
-      <h2>Registration Form</h2>
-
-      <!-- FormSubmit: replace YOUR_EMAIL@example.com with your email -->
-      <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
-        <!-- FormSubmit settings -->
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="New Registration - Noor Research Academy">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://noor25hossain.github.io/thanks.html">
-
-        <div class="form-row">
-          <div>
-            <label>Full Name</label>
-            <input type="text" name="name" required>
-          </div>
-          <div>
-            <label>Email</label>
-            <input type="email" name="email" required>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div>
-            <label>WhatsApp Number</label>
-            <input type="text" name="whatsapp" placeholder="+44 ...">
-          </div>
-          <div>
-            <label>Program / Course</label>
-            <select name="course" required>
-              <option value="">Select...</option>
-              <option>Research Methodology Masterclass</option>
-              <option>SPSS for Researchers</option>
-              <option>SmartPLS / SEM Bootcamp</option>
-              <option>AMOS / CFA & SEM</option>
-              <option>Panel & Time-Series (Stata/EViews)</option>
-              <option>Thesis Writing & Publication</option>
-              <option>One-to-one Mentoring</option>
-            </select>
-          </div>
-        </div>
-
-        <label>Message / Research Topic</label>
-        <textarea name="message" placeholder="Tell us about your research needs..."></textarea>
-
-        <div style="margin-top:14px">
-          <button class="btn" type="submit">Submit Registration</button>
-          <a class="btn btn-outline" href="https://wa.me/447873476674" target="_blank">Chat on WhatsApp</a>
-        </div>
-      </form>
-
-      <p style="font-size:13px;color:#666;margin-top:10px">
-        * Your information is used only for academic guidance and will never be shared.
-      </p>
-    </div>
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="index.html" aria-label="Home"><img src="assets/img/logo.png" alt="Logo" class="logo"></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="services.html">Academic Services</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-right">
+        <form class="nav-search" action="https://duckduckgo.com/" method="get">
+          <input type="hidden" name="sites" value="noor25hossain.github.io">
+          <input type="text" name="q" placeholder="Search the site..."><button>Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
-</div>
 
-  
-<footer>© 2026 Noor Research Academy</footer>
-<a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+  <main class="container">
+    <div class="grid grid-2">
+      <div class="card">
+        <h2>Contact Details</h2>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/447873476674" target="_blank" rel="noopener">+44 7873 476674</a></p>
+        <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p><strong>Website:</strong> <a href="https://noor25hossain.github.io">noor25hossain.github.io</a></p>
+      </div>
+
+      <div class="card">
+        <h2>Registration Form</h2>
+        <!-- FormSubmit: replace YOUR_EMAIL@example.com -->
+        <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Registration - Noor Research Academy">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://noor25hossain.github.io/contact.html">
+
+          <div class="form-row">
+            <div>
+              <label>Full Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label>WhatsApp Number</label>
+              <input type="text" name="whatsapp" placeholder="+44 ...">
+            </div>
+            <div>
+              <label>Program / Course</label>
+              <select name="course" required>
+                <option value="">Select...</option>
+                <option>Research Methodology Masterclass</option>
+                <option>SPSS for Researchers</option>
+                <option>SmartPLS / SEM Bootcamp</option>
+                <option>AMOS / CFA & SEM</option>
+                <option>Panel & Time-Series (Stata/EViews)</option>
+                <option>Thesis Writing & Publication</option>
+                <option>One-to-one Mentoring</option>
+              </select>
+            </div>
+          </div>
+
+          <label>Message / Research Topic</label>
+          <textarea name="message" placeholder="Tell us about your research needs..."></textarea>
+
+          <div style="margin-top:14px">
+            <button class="btn" type="submit">Submit Registration</button>
+            <a class="btn btn-outline" href="https://wa.me/447873476674" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2026 Noor Research Academy</footer>
+  <a id="whatsapp" href="https://wa.me/447873476674" target="_blank" aria-label="Chat on WhatsApp">💬</a>
 </body>
 </html>
